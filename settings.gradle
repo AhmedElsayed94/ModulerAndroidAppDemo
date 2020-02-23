@@ -1,0 +1,2 @@
+include ':app', ':library_base', ':orders', ':visits'
+rootProject.name='ModulerAndroidAppDemo'
