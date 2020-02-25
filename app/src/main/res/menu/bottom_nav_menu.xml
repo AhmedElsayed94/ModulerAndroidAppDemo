@@ -3,10 +3,10 @@
     <item
         android:id="@+id/orders_nav_graph"
         android:title="Orders"
-        android:icon="@drawable/ic_launcher_foreground"/>
+        android:icon="@drawable/ic_sentiment_dissatisfied_black_24dp"/>
     <item
         android:id="@+id/visits_nav_graph"
         android:title="Visits"
-        android:icon="@drawable/ic_launcher_foreground"/>
+        android:icon="@drawable/ic_sentiment_satisfied_black_24dp"/>
 
 </menu>
