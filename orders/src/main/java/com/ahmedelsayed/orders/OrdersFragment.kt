@@ -1,6 +1,7 @@
 package com.ahmedelsayed.orders
 
 import com.ahmedelsayed.library_base.fragment.BaseContainerFragment
+import kotlinx.android.synthetic.main.fragment_orders.*
 
 
 class OrdersFragment : BaseContainerFragment() {
@@ -9,5 +10,6 @@ class OrdersFragment : BaseContainerFragment() {
 
     override fun onResume() {
         super.onResume()
+        fragmentAnimation.playAnimation()
     }
 }

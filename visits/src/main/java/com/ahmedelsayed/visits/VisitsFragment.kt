@@ -1,6 +1,7 @@
 package com.ahmedelsayed.visits
 
 import com.ahmedelsayed.library_base.fragment.BaseContainerFragment
+import kotlinx.android.synthetic.main.fragment_visits.*
 
 
 class VisitsFragment : BaseContainerFragment() {
@@ -9,5 +10,6 @@ class VisitsFragment : BaseContainerFragment() {
 
     override fun onResume() {
         super.onResume()
+        fragmentAnimation.playAnimation()
     }
 }
